@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9428DD241F18F4C4005D23F6 /* LocationSearchTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9428DD231F18F4C4005D23F6 /* LocationSearchTable.swift */; };
+		9428DD261F19172C005D23F6 /* RouteSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9428DD251F19172C005D23F6 /* RouteSearchController.swift */; };
+		9456F0761EFC203200DE4FCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9456F0741EFC203200DE4FCF /* Main.storyboard */; };
+		9468BD9C1F1DF6CB00B4D475 /* WalkthroughViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9468BD9B1F1DF6CB00B4D475 /* WalkthroughViewController.swift */; };
+		9468BD9E1F1DFC6A00B4D475 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9468BD9D1F1DFC6A00B4D475 /* PageViewController.swift */; };
+		CF22C6611EF2D5F000A6EB1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF22C6601EF2D5F000A6EB1F /* AppDelegate.swift */; };
+		CF22C6631EF2D5F000A6EB1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF22C6621EF2D5F000A6EB1F /* ViewController.swift */; };
+		CF22C6681EF2D5F100A6EB1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF22C6671EF2D5F100A6EB1F /* Assets.xcassets */; };
+		CF22C66B1EF2D5F100A6EB1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF22C6691EF2D5F100A6EB1F /* LaunchScreen.storyboard */; };
+		CF737A061EF37A240048F7AE /* bus-services in Resources */ = {isa = PBXBuildFile; fileRef = CF737A051EF37A240048F7AE /* bus-services */; };
+		CF737A0A1EF37AD50048F7AE /* StopListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF737A091EF37AD50048F7AE /* StopListViewController.swift */; };
+		CF737A101EF3B93F0048F7AE /* bus-stops.json in Resources */ = {isa = PBXBuildFile; fileRef = CF737A0F1EF3B93F0048F7AE /* bus-stops.json */; };
+		CF737A121EF3C9E80048F7AE /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF737A111EF3C9E80048F7AE /* MapViewController.swift */; };
+		CF737A151EF3E7230048F7AE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF737A141EF3E7230048F7AE /* MapKit.framework */; };
+		CF737A171EF3E72C0048F7AE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF737A161EF3E72C0048F7AE /* CoreLocation.framework */; };
+		CF737A191EF3E8610048F7AE /* Geotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF737A181EF3E8610048F7AE /* Geotification.swift */; };
+		CF737A1B1EF40EAB0048F7AE /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF737A1A1EF40EAB0048F7AE /* Helpers.swift */; };
+		CFBCB1591EF4D67C00846080 /* TestLocations.gpx in Resources */ = {isa = PBXBuildFile; fileRef = CFBCB1581EF4D67C00846080 /* TestLocations.gpx */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9428DD231F18F4C4005D23F6 /* LocationSearchTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationSearchTable.swift; sourceTree = "<group>"; };
+		9428DD251F19172C005D23F6 /* RouteSearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteSearchController.swift; sourceTree = "<group>"; };
+		9456F0751EFC203200DE4FCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9468BD9B1F1DF6CB00B4D475 /* WalkthroughViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkthroughViewController.swift; sourceTree = "<group>"; };
+		9468BD9D1F1DFC6A00B4D475 /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		CF22C65D1EF2D5EF00A6EB1F /* NeverMiss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeverMiss.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF22C6601EF2D5F000A6EB1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF22C6621EF2D5F000A6EB1F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF22C6671EF2D5F100A6EB1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF22C66A1EF2D5F100A6EB1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF22C66C1EF2D5F100A6EB1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF737A051EF37A240048F7AE /* bus-services */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "bus-services"; sourceTree = "<group>"; };
+		CF737A091EF37AD50048F7AE /* StopListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StopListViewController.swift; sourceTree = "<group>"; };
+		CF737A0F1EF3B93F0048F7AE /* bus-stops.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "bus-stops.json"; sourceTree = "<group>"; };
+		CF737A111EF3C9E80048F7AE /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		CF737A141EF3E7230048F7AE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		CF737A161EF3E72C0048F7AE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CF737A181EF3E8610048F7AE /* Geotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Geotification.swift; sourceTree = "<group>"; };
+		CF737A1A1EF40EAB0048F7AE /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		CFBCB1581EF4D67C00846080 /* TestLocations.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TestLocations.gpx; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF22C65A1EF2D5EF00A6EB1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF737A171EF3E72C0048F7AE /* CoreLocation.framework in Frameworks */,
+				CF737A151EF3E7230048F7AE /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF22C6541EF2D5EE00A6EB1F = {
+			isa = PBXGroup;
+			children = (
+				CF22C65F1EF2D5EF00A6EB1F /* NeverMiss */,
+				CF22C65E1EF2D5EF00A6EB1F /* Products */,
+				CF737A131EF3E7230048F7AE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CF22C65E1EF2D5EF00A6EB1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF22C65D1EF2D5EF00A6EB1F /* NeverMiss.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF22C65F1EF2D5EF00A6EB1F /* NeverMiss */ = {
+			isa = PBXGroup;
+			children = (
+				CF22C6601EF2D5F000A6EB1F /* AppDelegate.swift */,
+				CF22C6621EF2D5F000A6EB1F /* ViewController.swift */,
+				CF737A091EF37AD50048F7AE /* StopListViewController.swift */,
+				CF737A111EF3C9E80048F7AE /* MapViewController.swift */,
+				9428DD251F19172C005D23F6 /* RouteSearchController.swift */,
+				9428DD231F18F4C4005D23F6 /* LocationSearchTable.swift */,
+				CF737A1A1EF40EAB0048F7AE /* Helpers.swift */,
+				CF737A181EF3E8610048F7AE /* Geotification.swift */,
+				9468BD9B1F1DF6CB00B4D475 /* WalkthroughViewController.swift */,
+				9468BD9D1F1DFC6A00B4D475 /* PageViewController.swift */,
+				9456F0741EFC203200DE4FCF /* Main.storyboard */,
+				CF22C6671EF2D5F100A6EB1F /* Assets.xcassets */,
+				CF22C6691EF2D5F100A6EB1F /* LaunchScreen.storyboard */,
+				CFBCB15A1EF4D69E00846080 /* Supporting Files */,
+				CF737A021EF379F20048F7AE /* Data */,
+			);
+			path = NeverMiss;
+			sourceTree = "<group>";
+		};
+		CF737A021EF379F20048F7AE /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				CF737A0F1EF3B93F0048F7AE /* bus-stops.json */,
+				CF737A051EF37A240048F7AE /* bus-services */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		CF737A131EF3E7230048F7AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF737A161EF3E72C0048F7AE /* CoreLocation.framework */,
+				CF737A141EF3E7230048F7AE /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CFBCB15A1EF4D69E00846080 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF22C66C1EF2D5F100A6EB1F /* Info.plist */,
+				CFBCB1581EF4D67C00846080 /* TestLocations.gpx */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF22C65C1EF2D5EF00A6EB1F /* NeverMiss */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF22C66F1EF2D5F100A6EB1F /* Build configuration list for PBXNativeTarget "NeverMiss" */;
+			buildPhases = (
+				CF22C6591EF2D5EF00A6EB1F /* Sources */,
+				CF22C65A1EF2D5EF00A6EB1F /* Frameworks */,
+				CF22C65B1EF2D5EF00A6EB1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeverMiss;
+			productName = NeverMiss;
+			productReference = CF22C65D1EF2D5EF00A6EB1F /* NeverMiss.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF22C6551EF2D5EE00A6EB1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Zhaoxuan Wu";
+				TargetAttributes = {
+					CF22C65C1EF2D5EF00A6EB1F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = HKW62A298X;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CF22C6581EF2D5EE00A6EB1F /* Build configuration list for PBXProject "NeverMiss" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF22C6541EF2D5EE00A6EB1F;
+			productRefGroup = CF22C65E1EF2D5EF00A6EB1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF22C65C1EF2D5EF00A6EB1F /* NeverMiss */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF22C65B1EF2D5EF00A6EB1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9456F0761EFC203200DE4FCF /* Main.storyboard in Resources */,
+				CF22C66B1EF2D5F100A6EB1F /* LaunchScreen.storyboard in Resources */,
+				CF22C6681EF2D5F100A6EB1F /* Assets.xcassets in Resources */,
+				CF737A061EF37A240048F7AE /* bus-services in Resources */,
+				CFBCB1591EF4D67C00846080 /* TestLocations.gpx in Resources */,
+				CF737A101EF3B93F0048F7AE /* bus-stops.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF22C6591EF2D5EF00A6EB1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF22C6631EF2D5F000A6EB1F /* ViewController.swift in Sources */,
+				9468BD9E1F1DFC6A00B4D475 /* PageViewController.swift in Sources */,
+				CF737A1B1EF40EAB0048F7AE /* Helpers.swift in Sources */,
+				CF737A0A1EF37AD50048F7AE /* StopListViewController.swift in Sources */,
+				9468BD9C1F1DF6CB00B4D475 /* WalkthroughViewController.swift in Sources */,
+				9428DD261F19172C005D23F6 /* RouteSearchController.swift in Sources */,
+				9428DD241F18F4C4005D23F6 /* LocationSearchTable.swift in Sources */,
+				CF737A191EF3E8610048F7AE /* Geotification.swift in Sources */,
+				CF737A121EF3C9E80048F7AE /* MapViewController.swift in Sources */,
+				CF22C6611EF2D5F000A6EB1F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9456F0741EFC203200DE4FCF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9456F0751EFC203200DE4FCF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF22C6691EF2D5F100A6EB1F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF22C66A1EF2D5F100A6EB1F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF22C66D1EF2D5F100A6EB1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF22C66E1EF2D5F100A6EB1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF22C6701EF2D5F100A6EB1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HKW62A298X;
+				INFOPLIST_FILE = NeverMiss/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Zhaoxuan-Wu.NeverMiss";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CF22C6711EF2D5F100A6EB1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HKW62A298X;
+				INFOPLIST_FILE = NeverMiss/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Zhaoxuan-Wu.NeverMiss";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF22C6581EF2D5EE00A6EB1F /* Build configuration list for PBXProject "NeverMiss" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF22C66D1EF2D5F100A6EB1F /* Debug */,
+				CF22C66E1EF2D5F100A6EB1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF22C66F1EF2D5F100A6EB1F /* Build configuration list for PBXNativeTarget "NeverMiss" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF22C6701EF2D5F100A6EB1F /* Debug */,
+				CF22C6711EF2D5F100A6EB1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF22C6551EF2D5EE00A6EB1F /* Project object */;
+}
